@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <title>ШарацТранс</title>
+</head>
+
+<body>
+    <header>
+        <h1>ШарацТранс</h1>
+    </header>
+    <section class="input-container">
+        <div>
+            <lable>Од:</lable>
+            <select name="source" id="select-source">
+                <option value="Venera">Венера</option>
+                <option value="Zemlja" selected>Земља</option>
+                <option value="Mars">Марс</option>
+                <option value="Jupiter">Јупитер</option>
+                <option value="Saturn">Сатрун</option>
+            </select>
+        </div>
+        <div>
+            <lable>До:</lable>
+            <select name="source" id="select-destination">
+                <option value="Venera">Венера</option>
+                <option value="Zemlja">Земља</option>
+                <option value="Mars" selected>Марс</option>
+                <option value="Jupiter">Јупитер</option>
+                <option value="Saturn">Сатрун</option>
+            </select>
+        </div>
+        <input type="submit" class="btn" id="btn-reserve" value="Резервиши" />
+        <input type="submit" class="btn" id="btn-reset" value="Ресетуј" />
+    </section>
+
+    <section id="item-list">
+
+        <div class="item">
+            <label class="info-src">Земља</label><label> - </label>
+            <label class="info-dst">Марс</label>
+            <label class="info-price">1500 РСД</label>
+        </div>
+    </section>
+    <section id="price-container">
+        <label id="price">0РСД</label>
+    </section>
+    <footer>
+        <label>Криејтед бај:</label>
+        <label id="creator">Марко Краљевић и Муса Кесаџија</label>
+    </footer>
+</body>
+
+</html>

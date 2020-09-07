@@ -1,0 +1,36 @@
+.launch{
+    width: 19%;
+    height: 300px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 50px;
+    transition: transform .2s;
+    background-color: aliceblue;
+    border: black;
+}
+
+.inner-div-0{
+    height: 190px;
+    width: 100%;
+}
+.inner-div-0 img{
+    height: 100%;
+    /* width: 100%; */
+}
+.inner-div-1{
+    height: 45px;
+    width: 100%;
+    border-bottom: 0.5px solid #999;
+}
+.inner-div-2{
+    height: 45px;
+    width: 100%;
+}
+
+.launch-list{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
